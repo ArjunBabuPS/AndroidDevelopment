@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dda0dd"
+    android:weightSum="1"
+  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thiagarajar College Of Engineering"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:textSize="20dp"
+        android:singleLine="false"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:text="National Service Scheme"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11"
+        android:editable="false"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="140dp"
+        android:id="@+id/imageView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:src="@drawable/backg" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Activity Info"
+        android:id="@+id/button9"
+        android:onClick="gotoseeact"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance Info"
+        android:id="@+id/button10"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:onClick="attendanceinfo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to main Page"
+        android:id="@+id/textView35"
+        android:layout_gravity="right"
+        android:layout_weight="0.10"
+        android:textColor="#000000"
+        android:onClick="goback" />
+
+</LinearLayout>

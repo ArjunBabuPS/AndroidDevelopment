@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:background="#dda0dd"
+    android:id="@+id/commonlayout">
+
+
+           <TextView
+               android:layout_width="350dp"
+               android:layout_height="50dp"
+               android:text="Attendance Registration"
+               android:gravity="center"
+               android:textColor="#000000"
+               android:textSize="25dp"
+               android:id="@+id/text1" />
+           <TextView
+               android:layout_width="300dp"
+               android:layout_height="40dp"
+               android:text="select year"
+               android:gravity="left"
+
+               android:textColor="#000000"
+               android:textSize="18dp"
+               android:id="@+id/text2"
+               />
+
+           <RadioGroup
+               android:layout_width="254dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/radio">
+               <RadioButton
+                   android:layout_width="119dp"
+                   android:layout_height="66dp"
+                   android:text="Iyear"
+                   android:id="@+id/radio1"/>
+               <RadioButton
+                   android:layout_width="128dp"
+                   android:layout_height="50dp"
+                   android:text="IIyear"
+                   android:id="@+id/radio2"/>
+           </RadioGroup>
+
+<TextView
+    android:layout_width="400dp"
+    android:layout_height="40dp"
+    android:text="select department"
+    android:textColor="#000000"
+    android:gravity="left"
+    android:textSize="18dp"
+    android:id="@+id/t6"/>
+    <ScrollView
+        android:layout_width="255dp"
+        android:layout_height="100dp"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/line1">
+           <RadioGroup
+               android:layout_width="200dp"
+               android:layout_height="500dp"
+               android:id="@+id/radio10">
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="Mech"
+                   />
+
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="CIVIL"/>
+
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="EEE"/>
+
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="ECE"/>
+
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="CSE"/>
+
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="IT"/>
+
+               <RadioButton
+                   android:layout_width="200dp"
+                   android:layout_height="50dp"
+                   android:text="Mechatronics"/>
+           </RadioGroup>
+</LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button12"
+        android:layout_gravity="right"
+        android:onClick="radiobut"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gotomainpage"
+        android:id="@+id/button16"
+        android:layout_gravity="right"
+        android:onClick="staffside"/>
+
+</LinearLayout>

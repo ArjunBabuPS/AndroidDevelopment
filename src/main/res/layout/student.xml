@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dda0dd" >
+
+
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:text="NSS Activities Info."
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.13"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Activity Name:"
+            android:id="@+id/textView11"
+            android:layout_weight="0.13"
+            android:gravity="left|center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14"
+            android:layout_weight="0.11"
+            android:gravity="left|center"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Place:"
+            android:id="@+id/textView12"
+            android:layout_weight="0.14"
+            android:gravity="left|center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:layout_weight="0.11"
+            android:gravity="left|center"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="235dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Date:"
+            android:id="@+id/textView13"
+            android:layout_weight="0.10"
+            android:gravity="left|center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_weight="0.11"
+            android:gravity="left|center"
+            android:textSize="20dp"
+            android:textColor="#000000" />
+
+
+</LinearLayout>

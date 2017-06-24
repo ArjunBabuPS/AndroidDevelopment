@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newnaveen.tceapp" >
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StaffLogin"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".Display"/>
+    <activity android:name=".Display2"/>
+        <activity android:name=".Studentsite"/>
+        <activity android:name=".AttendanceReg"/>
+        <activity android:name=".Mainstudent"/>
+        <activity android:name=".Nssawards"/>
+        <activity android:name=".Updateattendance"/>
+        <activity android:name=".AttendanceRetrieve" />
+<activity android:name=".seeattendance"/>
+    </application>
+
+</manifest>
