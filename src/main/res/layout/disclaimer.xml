@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#f8bef8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/activity_vertical_margin">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="10dp"
+                android:textSize="23dp"
+                android:id="@+id/dis1"
+                android:text="S Naveen Kumar B.E(CSE).,  \n (Contact No: 9629600862)"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/dis1"
+                android:gravity="center_horizontal"
+                android:textSize="28dp"
+                android:id="@+id/dis2"
+                android:text="Disclaimer"
+                android:textColor="#fc05d7"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/dis2"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="10dp"
+                android:textSize="23dp"
+                android:id="@+id/dis3"
+                android:text="\u2022Due to time constraints, the app is tested only for few Android Versions and Screen Sizes.Sorry for any Inconvenience."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/dis3"
+                android:gravity="center_horizontal"
+                android:textSize="30dp"
+                android:id="@+id/dis4"
+                android:text="Alagar Medicals \n  Version 2.0"
+                android:textColor="#5c4a5c"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Designed &amp; \n Developed by"
+        android:textSize="23dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/dis0"
+        android:textColor="#fc05d7"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+</RelativeLayout>
